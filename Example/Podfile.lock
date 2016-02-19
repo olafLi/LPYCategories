@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - LPYCategories (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - LPYCategories (from `../`)
+
+EXTERNAL SOURCES:
+  LPYCategories:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  LPYCategories: 51229553f3d8b83babefb3d5c2bd3d443a40dbab
+
+COCOAPODS: 0.39.0
