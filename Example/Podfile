@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LPYCategories_Example', :exclusive => true do
+  pod 'LPYCategories', :path => '../'
+end
+
+target 'LPYCategories_Tests', :exclusive => true do
+  pod 'LPYCategories', :path => '../'
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
