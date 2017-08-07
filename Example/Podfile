@@ -1,11 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
+# source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'LPYCategories_Example', :exclusive => true do
+target 'LPYCategories_Example'  do
   pod 'LPYCategories', :path => '../'
 end
 
-target 'LPYCategories_Tests', :exclusive => true do
+target 'LPYCategories_Tests' do
   pod 'LPYCategories', :path => '../'
 
   pod 'Kiwi'

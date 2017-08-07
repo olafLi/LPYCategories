@@ -15,8 +15,9 @@ s.summary          = "A short description of LPYCategories."
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description      = <<-DESC
+  LPYCategories libs
 DESC
 
 s.homepage         = "https://github.com/olafLi/LPYCategories.git"
@@ -33,8 +34,8 @@ s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
 'LPYCategories' => ['Pod/Assets/*.png']
 }
+s.public_header_files = 'Pod/Classes/**/*.h'
 
-# s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
+s.frameworks = 'UIKit', 'Foundation'
+
 end

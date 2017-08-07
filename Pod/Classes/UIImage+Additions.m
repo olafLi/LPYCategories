@@ -8,6 +8,7 @@
 
 #import <LPYCategories/UIImage+Additions.h>
 #import <Accelerate/Accelerate.h>
+#import "UIColor+Additions.h"
 
 @implementation UIImage (Additions)
 
@@ -290,7 +291,7 @@
     newImage = UIGraphicsGetImageFromCurrentImageContext();
 
     if (newImage == nil) {
-        DDLogInfo(@"could not scale image");
+//        DDLogInfo(@"could not scale image");
     }
 
     //pop the context to get back to the default

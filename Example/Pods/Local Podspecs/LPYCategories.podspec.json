@@ -1,0 +1,30 @@
+{
+  "name": "LPYCategories",
+  "version": "0.1.0",
+  "summary": "A short description of LPYCategories.",
+  "description": "LPYCategories libs",
+  "homepage": "https://github.com/olafLi/LPYCategories.git",
+  "license": "MIT",
+  "authors": {
+    "LiTengFei": "799849240@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/olafLi/LPYCategories.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LPYCategories": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

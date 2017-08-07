@@ -1,0 +1,6 @@
+framework module LPYCategories {
+  umbrella header "LPYCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}
